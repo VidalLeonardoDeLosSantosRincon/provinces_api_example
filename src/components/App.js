@@ -6,12 +6,14 @@ import {Header} from "./global/Header";
 import {Footer} from "./global/Footer";
 import {Content} from "./global/Content";
 
+import {Maps} from "./map";
+
 function App() {
   return (
     <div className="App">
         <Header/>
         <Content>
-            Hey
+            <Maps/>
         </Content>
         <Footer/>
     </div>
